@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendation - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <div style=" display: flex; margin-top: 10px;">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    </div>
+    <li>
+      <input type="text" id="searchBar" placeholder="Search...">
+      <button onclick="searchFunction()">Search</button>
+      <button onclick="clearSearch()">Clear</button>
+    </li>
+  </ul>
+  
+</nav>
+
+
+  <header>
+    <h1>Welcome to the Travel Recommendation Website</h1>
+    <p>Discover your next ideal destination based on your preferences.</p>
+  </header>
+
+  <section>
+    <h2>Beach Destinations</h2>
+    <div style="display: flex; justify-content: center; gap: 80px;">
+      <section><img src="images/goa.jpg" alt="Goa Beach"><h3>Goa</h3></section>
+      <section><img src="images/maldives.jpg" alt="Maldives Beach"><h3>Maldives</h3></section>
+    </div>
+  </section>
+
+  <section>
+    <h2>Temple Destinations</h2>
+    <div style="display: flex; justify-content: center; gap: 80px;">
+    <section><img src="images/badrinath.jpg" alt="Badrinath Temple"><h3>Badrinath</h3></section>
+    <section><img src="images/angkorwat.jpg" alt="Angkor Wat"><h3>Angkor</h3></section>
+    </div>
+  </section>
+
+  <section>
+    <h2>Explore by Country</h2>
+    <div style="display: flex; justify-content: center; gap: 80px;">
+    <section><img src="images/italy.jpg" alt="Italy"><h3>Italy</h3></section>
+    <section><img src="images/japan.jpg" alt="Japan"><h3>Japan</h3></section>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
